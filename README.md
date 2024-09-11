@@ -11,7 +11,8 @@ My shot at a simple CNN applied to an image upscaler.
 - No particular parameter goal - but should train on CPU.
 
 ## Image Choice
-- The images will come from a public dataset.
+- The images are from the [Fruit Images for Object Detection](https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection) dataset off of Kaggle.
+![alt text](data\test_zip\test\apple_77.jpg)
 
 ## Image Prep
 - Each of the images will be downscaled into half-resolution images.
