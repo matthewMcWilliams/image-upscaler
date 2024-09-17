@@ -2,6 +2,7 @@ from PIL import Image
 import os
 
 def downscale_img(img):
+    '''Downscales and returns PIL image.'''
     pixels = list(img.getdata())
     width, height = img.size
     pixels = [pixels[i * width:(i + 1) * width] for i in range(height)]
